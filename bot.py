@@ -34,7 +34,7 @@ def run_discord_bot():
         
         print(f'{username} said: "{user_message}" ({channel})')
         
-        await send_message(message, user_message, channel, is_private=True)
+        await send_message(message, user_message, channel, is_private=False)
         
         
         # private DM functionality
